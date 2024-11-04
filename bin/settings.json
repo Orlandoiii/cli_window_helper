@@ -1,0 +1,6 @@
+{
+    "Prometheus": "http://server.prometheus.simf:9090/api/v1/",
+    "Postgres": "host=server.postgres.simf  port=5432 user=simf_app_user password=simf dbname=simf sslmode=disable",
+    "RestApisIp":"http://server.rest_api.simf",
+    "RutaInformeCLI":"./Informe.txt"
+}

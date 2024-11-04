@@ -1,0 +1,15 @@
+172.16.102.11 server.postgres.desarrollo.simf
+
+#172.16.102.13 server.postgres.replica.desarrollo.simf
+
+10.0.16.23 instalacion.argus.desarrollo.deploy #http://instalacion.argus.deploy
+
+10.0.16.23 instalacion.grafana.desarrollo.server
+
+10.0.16.23 server.discovery.desarrollo.simf
+
+10.0.16.22 server.prometheus.desarrollo.simf
+
+10.0.16.23 server.argus_api.desarrollo.simf
+
+10.0.16.23 server.argus_api.historico.desarrollo.simf

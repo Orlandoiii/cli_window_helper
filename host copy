@@ -1,0 +1,52 @@
+127.0.0.1	otro.dns.com
+8.8.8.8	google.com
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+192.168.100.220	sycom.dom 
+192.168.100.220	instalacion.dashboard.desarrollo.simf #comments en la linea
+
+#otro comentario
+
+
+5.6.5.7	otro.dns.test.com
+
+192.168.100.220	server.rest_api.desarrollo.simf
+
+192.168.100.220	server.postgres.desarrollo.simf
+
+#192.168.100.222 server.postgres.replica.desarrollo.simf
+
+
+192.168.120.122	server.core.desarrollo.simf
+192.168.100.220	server.core.desarrollo.lbtr 
+
+192.168.100.221	server.prometheus.desarrollo.simf
+192.168.100.221	server.kafka1.desarrollo.simf server.kafka2.desarrollo.simf server.kafka3.desarrollo.simf
+
+172.16.102.12 instalacion.argus.desarrollo.deploy #http://instalacion.argus.desarrollo.deploy
+172.16.102.12 instalacion.grafana.desarrollo.server
+172.16.102.12 server.discovery.desarrollo.simf
+
+172.16.102.12 server.argus_api.desarrollo.simf
+172.16.102.12 server.argus_api.historico.desarrollo.simf
